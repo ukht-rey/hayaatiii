@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full-Screen Greeting Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card-closed" id="cardClosed">
+    <h1>🎉 Click to Open 🎉</h1>
+  </div>
+  <div class="card-open" id="cardOpen">
+    <div class="card-inside">
+      <h1 id="greeting">Happy Day!</h1>
+      <p id="message">Wishing you joy, love, and happiness 💖</p>
+    </div>
+  </div>
+
+  <audio id="music" loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="playMusic">Play Music 🎶</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
